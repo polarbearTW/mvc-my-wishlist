@@ -1,0 +1,92 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    background-color: antiquewhite;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #FF5078;
+}
+
+.btn {
+    display: flex;
+    justify-content: left;
+}
+
+button {
+    margin-right: 10px;
+    background-color: #FFD750;
+    border: none;
+    text-align: left;
+}
+
+.bgColor {
+    height: 35px;
+    background-color: #FFD750;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    z-index: 400;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.content {
+    width: 200px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #FF5078;
+    margin: 10px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.table{
+    font-size: large;
+    color: #FF5078;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 250px 10px 250px;
+}
+
+#submit{
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF5A1D;
+}
+
+.submit {
+    margin-left: 250px;
+}
+
+#warning {
+    color:#FF5078;
+    position: absolute;
+    top: 435px;
+    left: 400px;
+}
+
+#funcBTN {
+    width: 60px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
