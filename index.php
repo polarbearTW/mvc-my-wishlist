@@ -14,6 +14,10 @@ switch($action){
         include 'controller/add.php'; 
         break;
 
+    case 'edit': 
+        include 'controller/edit.php'; 
+        break;
+
     default: 
         include 'controller/list.php'; 
         break;

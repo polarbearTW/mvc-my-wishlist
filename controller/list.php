@@ -5,12 +5,14 @@ include 'model/listFunction.php';
 $manager = new listFunction();
 
 if (isset($_POST['delete'])) {
-    // delete comment
+    // delete place
     $id = $_POST['ID'];
     $manager->deletePlace($id);
-} 
-
-echo $id;
+// } elseif (isset($_POST['edit'])) {
+//     //edit place
+//     $id = $_POST['ID'];
+//     $manager->editPlace($id, );
+}
 
 $places = $manager->listPlaces();
 
